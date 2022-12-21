@@ -1,0 +1,18 @@
+body{
+    width: auto;
+    background-color:rgb(13, 13, 52);
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+img {
+    height: 100vh;
+}
+
+.form-wrapper{
+    width: 50vw;
+    background-color: rgb(153, 201, 200);
+}
+
+

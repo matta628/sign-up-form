@@ -47,12 +47,13 @@ body{
 
 .main-wrapper{
     width: 50vw;
-    background-color: rgb(153, 201, 200);
+    background-color: rgb(170, 223, 208);
 
     display: flex;
     flex-direction: column;
 }
 .header-wrapper{
+    margin-top: 12vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -65,20 +66,18 @@ body{
 }
 
 .form-container {
-    height: 40vh;
-    background-color: rgb(170, 227, 226);
+    height: 30vh;
+    background-color: rgb(193, 255, 237);
+    box-shadow: 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
 
 }
 .form-wrapper{
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.form-text{
-    font-size: 20px;
-    text-align: center;
-}
+
 .form-row{
     display: flex;
     justify-content: space-evenly;
@@ -90,7 +89,11 @@ body{
     width: 40%;
 }
 input {
+    font-family: 'Racing Sans One';
     height: 1.5em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    border: 2px solid rgb(102, 133, 124);
 }
 
 

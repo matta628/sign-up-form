@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
 body{
     width: auto;
     background-color:rgb(13, 13, 52);
+    color:rgb(13, 13, 52);
+    
+    font-family: 'Racing Sans One';
+    font-size: 18px;
     display: flex;
     margin: 0;
     justify-content: center;
@@ -13,6 +19,18 @@ img {
 .form-wrapper{
     width: 50vw;
     background-color: rgb(153, 201, 200);
+    display: flex;
+    padding: 20px 20px;
 }
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title{
+    font-size: 36px;
+}
+
+
 
 

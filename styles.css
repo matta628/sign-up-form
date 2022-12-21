@@ -9,7 +9,7 @@ body{
     background-color:rgb(13, 13, 52);
 
     font-family: 'Racing Sans One';
-    font-size: 18px;
+    font-size: 16px;
     color:rgb(13, 13, 52);
 
     display: flex;
@@ -45,11 +45,13 @@ body{
     margin: auto;
 }
 
-.form-wrapper{
+.main-wrapper{
     width: 50vw;
     background-color: rgb(153, 201, 200);
-    display: flex;
     padding: 20px 20px;
+
+    display: flex;
+    flex-direction: column;
 }
 .header-wrapper{
     display: flex;
@@ -58,7 +60,10 @@ body{
 }
 .title{
     font-size: 36px;
+    text-align: center;
 }
+
+
 
 
 

@@ -17,11 +17,10 @@ body{
     justify-content: center;
 }
 
-.side-image{
+.side-wrapper{
     position: relative;
     display: flex;
 }
-
 .bg-img {
     height: 100vh;
     position: relative;
@@ -35,14 +34,16 @@ body{
     position: absolute;
     left: 0; right: 0; top: 0; bottom: 0;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .logo-img{
     height: 20vh;
-
-    position: absolute;
-    left: 0; right: 0; top: 0; bottom: 0;
-    margin: auto;
+}
+.logo-text{
+    color: white;
+    font-size: 64px;
 }
 
 .main-wrapper{

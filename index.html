@@ -1,79 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Sign Up Form</title>
-  </head>
-  <body>
-    <div class="side-wrapper">
-      <img src="/img/background.jpg" class="bg-img" alt="">
-      <div class="logo-container">
-        <img src="/img/logo.png" class="logo-img" alt="">
-        <div class="logo-text">
-            ODIN
-        </div>
-      </div>
-    </div>
-    <div class="main-wrapper">
-      <div class="header-wrapper">
-        <div class="title">
-          Deep Space Exploration
-        </div>
-        <div class="about">
-          Light years away fantastical planets call to explorers to dare venture where no human has gone before.
-        </div>
-        <div class="call-to-action">
-          Sign up <strong>now</strong> to be among the first to discover the beyond.
-        </div>
-      </div>
-      <div class="form-container">
-        <form>
-          <ul class="form-wrapper">
-            <div class="form-row">
-                <li class="form-item">
-                  <label for="first-name">First Name</label>
-                  <input type="text" name="first-name" id="first-name">
-                </li>
-                <li class="form-item">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" id="last-name">
-                </li>
-            </div>
-            <div class="form-row">
-                <li class="form-item">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                </li>
-                <li class="form-item">
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number" id="phone-number">
-                </li>
-            </div>
-            <div class="form-row">
-                <li class="form-item">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                </li>
-                <li class="form-item">
-                    <label for="pw-confirm">Confirm Password</label>
-                    <input type="password" name="pw-confirm" id="pw-confirm">
-                </li>
-            </div>
-            <div class="button">
-                <input type="submit" id="submit-form" class="hidden">
-            </div>
-          </ul>
-        </form>
-      </div>
-      <div class="submit">
-        <label for="submit-form" tabindex="0">Submit</label>
-      </div>
-      <div class="login">
-        Have an account? <a>Log in.</a>
-      </div>
-    </div>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Sign Up Form</title>
+</head>
+
+<body>
+	<div class="side-wrapper">
+		<img src="/img/background.jpg" class="bg-img" alt="">
+		<div class="logo-container">
+			<img src="/img/logo.png" class="logo-img" alt="">
+			<div class="logo-text">
+				ODIN
+			</div>
+		</div>
+	</div>
+	<div class="main-wrapper">
+		<div class="header-wrapper">
+			<div class="title">
+				Deep Space Exploration
+			</div>
+			<div class="about">
+				Light years away fantastical planets call to explorers to dare venture where no human has gone before.
+			</div>
+			<div class="call-to-action">
+				Sign up <strong>now</strong> to be among the first to discover the beyond.
+			</div>
+		</div>
+		<div class="form-container">
+			<form>
+				<ul class="form-wrapper">
+					<div class="form-row">
+						<li class="form-item">
+							<label for="first-name">First Name</label>
+							<input type="text" name="first-name" id="first-name" pattern="[A-Za-z]{1,32}" title="Only letters"
+								required>
+						</li>
+						<li class="form-item">
+							<label for="last-name">Last Name</label>
+							<input type="text" name="last-name" id="last-name" pattern="[A-Za-z]{1,32}" title="Only letters" required>
+						</li>
+					</div>
+					<div class="form-row">
+						<li class="form-item">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" required>
+						</li>
+						<li class="form-item">
+							<label for="phone-number">Phone Number</label>
+							<input type="tel" name="phone-number" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+								title="Format: 123-456-7890" required>
+						</li>
+					</div>
+					<div class="form-row">
+						<li class="form-item">
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" required>
+						</li>
+						<li class="form-item">
+							<label for="pw-confirm">Confirm Password</label>
+							<input type="password" name="pw-confirm" id="pw-confirm" required>
+						</li>
+					</div>
+					<div class="button">
+						<input type="submit" id="submit-form" class="hidden">
+					</div>
+				</ul>
+			</form>
+		</div>
+		<div class="submit">
+			<label for="submit-form" tabindex="0">Submit</label>
+		</div>
+		<div class="login">
+			Have an account? <a>Log in.</a>
+		</div>
+	</div>
+</body>
+
 </html>

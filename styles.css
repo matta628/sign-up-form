@@ -48,7 +48,6 @@ body{
 .main-wrapper{
     width: 50vw;
     background-color: rgb(153, 201, 200);
-    padding: 20px 20px;
 
     display: flex;
     flex-direction: column;
@@ -57,11 +56,43 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    padding: 20px 20px;
 }
 .title{
     font-size: 36px;
     text-align: center;
 }
+
+.form-container {
+    height: 40vh;
+    background-color: rgb(170, 227, 226);
+
+}
+.form-wrapper{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form-text{
+    font-size: 20px;
+    text-align: center;
+}
+.form-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-item{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+input {
+    height: 1.5em;
+}
+
 
 
 

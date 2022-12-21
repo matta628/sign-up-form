@@ -54,7 +54,7 @@ body{
     flex-direction: column;
 }
 .header-wrapper{
-    margin-top: 12vh;
+    margin-top: 9vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -62,7 +62,7 @@ body{
     padding: 20px 20px;
 }
 .title{
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
 }
 
@@ -93,10 +93,40 @@ input {
     font-family: 'Racing Sans One';
     height: 1.5em;
     background-color: rgb(255, 255, 255);
-    border-radius: 0;
-    border: 2px solid rgb(102, 133, 124);
+    border-radius: 5px;
+    border: 3px solid rgb(102, 133, 124);
+}
+.hidden{
+    display: none;
 }
 
+.submit{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(27,173,229);
+    box-shadow: 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
+
+    height: 5vh;
+    width: 10vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit:hover {
+    box-shadow: 1.4px 2.7px 2.7px hsl(0deg 0% 0% / 0.46);
+}
+
+.login{
+    text-align: center;
+}
+a{
+    color:rgb(193, 255, 237);
+}
+a:hover{
+    text-decoration: underline;
+}
 
 
 

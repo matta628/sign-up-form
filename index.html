@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="form-container">
-        <form action="/" method="post">
+        <form>
           <ul class="form-wrapper">
             <div class="form-row">
                 <li class="form-item">
@@ -62,8 +62,17 @@
                     <input type="password" name="pw-confirm" id="pw-confirm">
                 </li>
             </div>
+            <div class="button">
+                <input type="submit" id="submit-form" class="hidden">
+            </div>
           </ul>
         </form>
+      </div>
+      <div class="submit">
+        <label for="submit-form" tabindex="0">Submit</label>
+      </div>
+      <div class="login">
+        Have an account? <a>Log in.</a>
       </div>
     </div>
   </body>
